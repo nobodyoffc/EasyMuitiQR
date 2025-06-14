@@ -3,66 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		B66FB9692D79375100BB9023 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B66FB94F2D79374F00BB9023 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B66FB9562D79374F00BB9023;
-			remoteInfo = EasyQR;
-		};
-		B66FB9732D79375100BB9023 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B66FB94F2D79374F00BB9023 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B66FB9562D79374F00BB9023;
-			remoteInfo = EasyQR;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		1A1A1A1A1A1A1A1A1A1A1A1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1B /* ContentView.swift */; };
+		1A1A1A1A1A1A1A1A1A1A1A1C /* EasyQRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1D /* EasyQRApp.swift */; };
+		B68197092DF045070017B513 /* easy-qr 3.png in Resources */ = {isa = PBXBuildFile; fileRef = B68197082DF045070017B513 /* easy-qr 3.png */; };
+		B681970B2DF045070017B514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B681970A2DF045070017B514 /* Assets.xcassets */; };
+		B681970E2DF052F60017B513 /* easyqr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B681970D2DF052F60017B513 /* easyqr.jpg */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B66FB9572D79374F00BB9023 /* EasyQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B66FB9682D79375100BB9023 /* EasyQRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyQRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B66FB9722D79375100BB9023 /* EasyQRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyQRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1A1A1A1A1A1A1A1A1A1A1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A1A1D /* EasyQRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyQRApp.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A1A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A1A1F /* EasyQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68197082DF045070017B513 /* easy-qr 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "easy-qr 3.png"; sourceTree = "<group>"; };
+		B681970A2DF045070017B514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B681970D2DF052F60017B513 /* easyqr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = easyqr.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B66FB9592D79374F00BB9023 /* EasyQR */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EasyQR;
-			sourceTree = "<group>";
-		};
-		B66FB96B2D79375100BB9023 /* EasyQRTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EasyQRTests;
-			sourceTree = "<group>";
-		};
-		B66FB9752D79375100BB9023 /* EasyQRUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EasyQRUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		B66FB9542D79374F00BB9023 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B66FB9652D79375100BB9023 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B66FB96F2D79375100BB9023 /* Frameworks */ = {
+		1A1A1A1A1A1A1A1A1A1A1A20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B66FB94E2D79374F00BB9023 = {
+		1A1A1A1A1A1A1A1A1A1A1A21 = {
 			isa = PBXGroup;
 			children = (
-				B66FB9592D79374F00BB9023 /* EasyQR */,
-				B66FB96B2D79375100BB9023 /* EasyQRTests */,
-				B66FB9752D79375100BB9023 /* EasyQRUITests */,
-				B66FB9582D79374F00BB9023 /* Products */,
+				1A1A1A1A1A1A1A1A1A1A1A22 /* EasyQR */,
+				1A1A1A1A1A1A1A1A1A1A1A23 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B66FB9582D79374F00BB9023 /* Products */ = {
+		1A1A1A1A1A1A1A1A1A1A1A22 /* EasyQR */ = {
 			isa = PBXGroup;
 			children = (
-				B66FB9572D79374F00BB9023 /* EasyQR.app */,
-				B66FB9682D79375100BB9023 /* EasyQRTests.xctest */,
-				B66FB9722D79375100BB9023 /* EasyQRUITests.xctest */,
+				1A1A1A1A1A1A1A1A1A1A1A1D /* EasyQRApp.swift */,
+				1A1A1A1A1A1A1A1A1A1A1A1B /* ContentView.swift */,
+				B681970D2DF052F60017B513 /* easyqr.jpg */,
+				1A1A1A1A1A1A1A1A1A1A1A1E /* Info.plist */,
+				B68197082DF045070017B513 /* easy-qr 3.png */,
+				B681970A2DF045070017B514 /* Assets.xcassets */,
+			);
+			path = EasyQR;
+			sourceTree = "<group>";
+		};
+		1A1A1A1A1A1A1A1A1A1A1A23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A1A1F /* EasyQR.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,181 +67,83 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B66FB9562D79374F00BB9023 /* EasyQR */ = {
+		1A1A1A1A1A1A1A1A1A1A1A24 /* EasyQR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B66FB97C2D79375100BB9023 /* Build configuration list for PBXNativeTarget "EasyQR" */;
+			buildConfigurationList = 1A1A1A1A1A1A1A1A1A1A1A25 /* Build configuration list for PBXNativeTarget "EasyQR" */;
 			buildPhases = (
-				B66FB9532D79374F00BB9023 /* Sources */,
-				B66FB9542D79374F00BB9023 /* Frameworks */,
-				B66FB9552D79374F00BB9023 /* Resources */,
+				1A1A1A1A1A1A1A1A1A1A1A26 /* Sources */,
+				1A1A1A1A1A1A1A1A1A1A1A20 /* Frameworks */,
+				1A1A1A1A1A1A1A1A1A1A1A27 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B66FB9592D79374F00BB9023 /* EasyQR */,
 			);
 			name = EasyQR;
-			packageProductDependencies = (
-			);
 			productName = EasyQR;
-			productReference = B66FB9572D79374F00BB9023 /* EasyQR.app */;
+			productReference = 1A1A1A1A1A1A1A1A1A1A1A1F /* EasyQR.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B66FB9672D79375100BB9023 /* EasyQRTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B66FB97F2D79375100BB9023 /* Build configuration list for PBXNativeTarget "EasyQRTests" */;
-			buildPhases = (
-				B66FB9642D79375100BB9023 /* Sources */,
-				B66FB9652D79375100BB9023 /* Frameworks */,
-				B66FB9662D79375100BB9023 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B66FB96A2D79375100BB9023 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B66FB96B2D79375100BB9023 /* EasyQRTests */,
-			);
-			name = EasyQRTests;
-			packageProductDependencies = (
-			);
-			productName = EasyQRTests;
-			productReference = B66FB9682D79375100BB9023 /* EasyQRTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B66FB9712D79375100BB9023 /* EasyQRUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B66FB9822D79375100BB9023 /* Build configuration list for PBXNativeTarget "EasyQRUITests" */;
-			buildPhases = (
-				B66FB96E2D79375100BB9023 /* Sources */,
-				B66FB96F2D79375100BB9023 /* Frameworks */,
-				B66FB9702D79375100BB9023 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B66FB9742D79375100BB9023 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B66FB9752D79375100BB9023 /* EasyQRUITests */,
-			);
-			name = EasyQRUITests;
-			packageProductDependencies = (
-			);
-			productName = EasyQRUITests;
-			productReference = B66FB9722D79375100BB9023 /* EasyQRUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B66FB94F2D79374F00BB9023 /* Project object */ = {
+		1A1A1A1A1A1A1A1A1A1A1A28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					B66FB9562D79374F00BB9023 = {
-						CreatedOnToolsVersion = 16.2;
-					};
-					B66FB9672D79375100BB9023 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = B66FB9562D79374F00BB9023;
-					};
-					B66FB9712D79375100BB9023 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = B66FB9562D79374F00BB9023;
+					1A1A1A1A1A1A1A1A1A1A1A24 = {
+						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = B66FB9522D79374F00BB9023 /* Build configuration list for PBXProject "EasyQR" */;
+			buildConfigurationList = 1A1A1A1A1A1A1A1A1A1A1A29 /* Build configuration list for PBXProject "EasyQR" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B66FB94E2D79374F00BB9023;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = B66FB9582D79374F00BB9023 /* Products */;
+			mainGroup = 1A1A1A1A1A1A1A1A1A1A1A21;
+			productRefGroup = 1A1A1A1A1A1A1A1A1A1A1A23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B66FB9562D79374F00BB9023 /* EasyQR */,
-				B66FB9672D79375100BB9023 /* EasyQRTests */,
-				B66FB9712D79375100BB9023 /* EasyQRUITests */,
+				1A1A1A1A1A1A1A1A1A1A1A24 /* EasyQR */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B66FB9552D79374F00BB9023 /* Resources */ = {
+		1A1A1A1A1A1A1A1A1A1A1A27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B66FB9662D79375100BB9023 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B66FB9702D79375100BB9023 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B681970E2DF052F60017B513 /* easyqr.jpg in Resources */,
+				B68197092DF045070017B513 /* easy-qr 3.png in Resources */,
+				B681970B2DF045070017B514 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B66FB9532D79374F00BB9023 /* Sources */ = {
+		1A1A1A1A1A1A1A1A1A1A1A26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B66FB9642D79375100BB9023 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B66FB96E2D79375100BB9023 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1A1A1A1A1A1A1A1A1A1A1A1A /* ContentView.swift in Sources */,
+				1A1A1A1A1A1A1A1A1A1A1A1C /* EasyQRApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B66FB96A2D79375100BB9023 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B66FB9562D79374F00BB9023 /* EasyQR */;
-			targetProxy = B66FB9692D79375100BB9023 /* PBXContainerItemProxy */;
-		};
-		B66FB9742D79375100BB9023 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B66FB9562D79374F00BB9023 /* EasyQR */;
-			targetProxy = B66FB9732D79375100BB9023 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		B66FB97A2D79375100BB9023 /* Debug */ = {
+		1A1A1A1A1A1A1A1A1A1A1A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,6 +178,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5768V787GP;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -321,16 +196,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		B66FB97B2D79375100BB9023 /* Release */ = {
+		1A1A1A1A1A1A1A1A1A1A1A2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,6 +242,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5768V787GP;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -376,221 +254,114 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B66FB97D2D79375100BB9023 /* Debug */ = {
+		1A1A1A1A1A1A1A1A1A1A1A2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = EasyQR/EasyQR.entitlements;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EasyQR/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 5768V787GP;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_FILE = EasyQR/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EasyQR;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机以扫描二维码";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要访问相册以保存生成的二维码";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要访问相册以选择二维码图片";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fc.EasyQR;
+				PRODUCT_BUNDLE_IDENTIFIER = cash.cid.EasyQR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B66FB97E2D79375100BB9023 /* Release */ = {
+		1A1A1A1A1A1A1A1A1A1A1A2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = EasyQR/EasyQR.entitlements;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"EasyQR/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 5768V787GP;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_FILE = EasyQR/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EasyQR;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问相机以扫描二维码";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要访问相册以保存生成的二维码";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "需要访问相册以选择二维码图片";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fc.EasyQR;
+				PRODUCT_BUNDLE_IDENTIFIER = cash.cid.EasyQR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-		B66FB9802D79375100BB9023 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5768V787GP;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fc.EasyQRTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyQR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EasyQR";
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		B66FB9812D79375100BB9023 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5768V787GP;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fc.EasyQRTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyQR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EasyQR";
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-		B66FB9832D79375100BB9023 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5768V787GP;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fc.EasyQRUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = EasyQR;
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		B66FB9842D79375100BB9023 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5768V787GP;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fc.EasyQRUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = EasyQR;
-				XROS_DEPLOYMENT_TARGET = 2.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B66FB9522D79374F00BB9023 /* Build configuration list for PBXProject "EasyQR" */ = {
+		1A1A1A1A1A1A1A1A1A1A1A25 /* Build configuration list for PBXNativeTarget "EasyQR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B66FB97A2D79375100BB9023 /* Debug */,
-				B66FB97B2D79375100BB9023 /* Release */,
+				1A1A1A1A1A1A1A1A1A1A1A2C /* Debug */,
+				1A1A1A1A1A1A1A1A1A1A1A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B66FB97C2D79375100BB9023 /* Build configuration list for PBXNativeTarget "EasyQR" */ = {
+		1A1A1A1A1A1A1A1A1A1A1A29 /* Build configuration list for PBXProject "EasyQR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B66FB97D2D79375100BB9023 /* Debug */,
-				B66FB97E2D79375100BB9023 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B66FB97F2D79375100BB9023 /* Build configuration list for PBXNativeTarget "EasyQRTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B66FB9802D79375100BB9023 /* Debug */,
-				B66FB9812D79375100BB9023 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B66FB9822D79375100BB9023 /* Build configuration list for PBXNativeTarget "EasyQRUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B66FB9832D79375100BB9023 /* Debug */,
-				B66FB9842D79375100BB9023 /* Release */,
+				1A1A1A1A1A1A1A1A1A1A1A2A /* Debug */,
+				1A1A1A1A1A1A1A1A1A1A1A2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B66FB94F2D79374F00BB9023 /* Project object */;
+	rootObject = 1A1A1A1A1A1A1A1A1A1A1A28 /* Project object */;
 }
